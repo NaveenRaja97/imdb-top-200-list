@@ -1,9 +1,3 @@
-#  Program To Scrap Top 250 Movies List From IMDB Website
-
-1. Please use following documentation to run the code
-
-''' python
-
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -39,5 +33,3 @@ df['Year']   = movie_year
 df['Image']  = movie_image
 
 df.to_csv('IMDB_TOP_250_MOVIES_LIST.csv')                       # exporting data to csv file
-
-'''
